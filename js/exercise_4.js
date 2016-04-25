@@ -45,8 +45,8 @@ var clickHandler = function(e){
     
     info += '<div>'
     info += 	'<h2>' + feature.properties.LABEL + '<h2>';
-    info +=		'<p>' + feature.properties.LOCATION + '</p>'
-    infor +='<div>'
+    info +=		'<p>' + feature.properties.LOCATION + '</p>';
+    infor +='<div>';
     
     $('#info').append(info);
     
@@ -60,6 +60,8 @@ featureLayer.on('ready', function(){
 })
 
 map.on('click', function(){
-  $('#info'). fadeOut(200);
+  $('#info').fadeOut(200);
   $('info').empty();
+  
+})
  
