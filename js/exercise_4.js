@@ -66,7 +66,7 @@ map.on('click', function(){
   
 })
 
-var myLocation = L.mapbox.feaure.Layer()
+var myLocation = L.mapbox.feaureLayer()
 myLocation.addTo(map);
 
 map.on('locationfound', function(e){
