@@ -17,7 +17,7 @@ map.setView([39, -96], 4);
 
 // Great, now we have a basic web map!
 
-var dataFileToAdd = 'data/bike_routes.geojson';
+var dataFileToAdd = 'data/powercat.geojson';
 
 var featureLayer = L.mapbox.featureLayer();
 featureLayer.loadURL(dataFileToAdd);
