@@ -2,7 +2,7 @@
 
 // Enter your mapbox map id here to reference it for the base layer,
 // this one references the ugly green map that I made.
-var mapId = 'sdsmith20.pp97edd3';
+var mapId = 'sdsmith20.pp9k1202';
 
 // And this is my access token, use yours.
 var accessToken = 'pk.eyJ1Ijoic2RzbWl0aDIwIiwiYSI6ImNpbmcwZmd6MjE5bzV1OGx3bmpkbTMzM2QifQ.hSn3ilMmtqR5Nhd_ssFrww';
@@ -17,7 +17,7 @@ map.setView([39, -96], 4);
 
 // Great, now we have a basic web map!
 
-var dataFileToAdd = 'data/parks.geojson';
+var dataFileToAdd = 'data/resturants.geojson';
 
 var featureLayer = L.mapbox.featureLayer();
 featureLayer.loadURL(dataFileToAdd);
