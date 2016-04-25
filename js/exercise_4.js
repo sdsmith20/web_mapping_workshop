@@ -80,7 +80,7 @@ map.on('locationfound', function(e){
     properties: {
       "title": 'Here I Am!',
       "marker-color": '#ff8888',
-      "marker-symbol": "star'
+      "marker-symbol": 'star'
     }
   })
 })
