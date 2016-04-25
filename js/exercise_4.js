@@ -20,8 +20,8 @@ map.setView([39, -96], 4);
 var dataFileToAdd = 'data/parks.geojson';
 
 var featureLayer = L.mapbox.feaureLayer();
-feaureLayer.loadURL(dataFileToAdd);
-featuerLayer.addTo(map);
+featureLayer.loadURL(dataFileToAdd);
+featureLayer.addTo(map);
 
 featureLayer.on('ready', function(){
   this.setStyle({
