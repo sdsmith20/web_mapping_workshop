@@ -61,7 +61,7 @@ featureLayer.on('ready', function(){
 
 map.on('click', function(){
   $('#info').fadeOut(200);
-  $('info').empty();
+  $('#info').empty();
   
 })
  
