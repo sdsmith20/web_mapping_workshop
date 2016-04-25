@@ -56,7 +56,7 @@ var clickHandler = function(e){
 
 featureLayer.on('ready', function(){
   this.eachLayer(function(layer){
-    		layer.on('clcik',cclickHandeler);
+    		layer.on('clcik',cclickHandler);
                                 })
 })
 
