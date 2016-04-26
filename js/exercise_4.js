@@ -66,10 +66,5 @@ map.on('click', function(){
   
 })
 
-var myLocation = L.mapbox.featureLayer();
- 
-    }
-  })
-})
-  
+
  
