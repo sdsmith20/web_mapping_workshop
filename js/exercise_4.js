@@ -13,7 +13,7 @@ L.mapbox.accessToken = accessToken;
 var map = L.mapbox.map('map', mapId);
 
 // Set the initial view of the map to the whole US
-map.setView([37.157348, -94.534003], 4);
+map.setView([37.157348, -94.534003], 10);
 
 // Great, now we have a basic web map!
 
